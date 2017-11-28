@@ -1,0 +1,34 @@
+header .enlace-naftalina {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+ul {
+  float: right;
+  overflow: hidden;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+ul li {
+  float: left;
+  margin-left: 10%;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  float: left;
+}
+
+.imagen-bg {
+  width: 100vw;
+}
+
+footer {
+  margin-top: 5%;
+  padding: 5%;
+  text-align: center;
+  background-color: #6E9872;
+  color: #FFF;
+}

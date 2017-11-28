@@ -1,0 +1,6 @@
+@media (min-width:200px) and (max-width: 534px) {
+  [class*=col-] {
+    /* para todas las clases de nombre col */
+    width: 100%;
+  }
+}
