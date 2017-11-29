@@ -1,6 +1,23 @@
-header .enlace-naftalina {
-  margin-left: 10%;
+.header {
+  background-color: #5ADBB5;
+  padding-bottom: 3%;
+}
+
+.enlace-naftalina {
+  margin-left: 20%;
   margin-top: 5%;
+  font-size: 3em;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.enlace-naftalina a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.enlace-naftalina a:hover:not(.active) {
+  color: #DB1A5B;
 }
 
 ul {
@@ -11,24 +28,74 @@ ul {
 }
 
 ul li {
-  float: left;
+  /*float: left;*/
   margin-left: 10%;
   list-style-type: none;
 }
 
 ul li a {
+  font-family: 'Barlow Condensed', sans-serif;
   text-decoration: none;
   float: left;
+  color: #FFF;
+}
+
+li a:hover:not(.active) {
+  padding: 5%;
+  color: #DB1A5B;
 }
 
 .imagen-bg {
   width: 100vw;
 }
 
-footer {
+.nosotros {
+  margin: 5%;
+}
+
+h3 {
+  color: #DB1A5B;
+  font-family: 'Anton', sans-serif;
+}
+
+p {
+  color: #B0AAAA;
+  font-family: 'Dosis', sans-serif;
+}
+
+.datos-contacto {
+  margin-bottom: 10%;
+}
+
+.contacto {
+  margin-top: 9%;
+  margin-left: 5%;
+}
+
+.card-title {
+  color: #5ADBB5;
+  font-family: 'Anton', sans-serif;
+  size: 0.1em;
+  letter-spacing: 0.1em;
+}
+
+.contenedor-cards {
+  margin: 5%;
+}
+
+button {
+  border-radius: 0.3em;
+  background-color: #DB1A5B;
+  color: #FFF;
+  padding: 1%;
+  border-style: none;
+}
+
+footer p {
+  font-family: 'Barlow Condensed', sans-serif;
   margin-top: 5%;
   padding: 5%;
   text-align: center;
-  background-color: #6E9872;
+  background-color: #5ADBB5;
   color: #FFF;
 }
