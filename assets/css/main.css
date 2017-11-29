@@ -16,32 +16,36 @@
   color: #FFF;
 }
 
-.enlace-naftalina a:hover:not(.active) {
+.enlace-naftalina a:hover {
   color: #DB1A5B;
 }
 
-ul {
+nav {
   float: right;
-  overflow: hidden;
-  margin-right: 20%;
-  margin-top: 5%;
+  padding-right: 15%;
+  padding-top: 7%;
 }
 
-ul li {
-  /*float: left;*/
-  margin-left: 10%;
-  list-style-type: none;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 3em;
 }
 
-ul li a {
+li {
+  text-align: right;
+  display: inline-block;
   font-family: 'Barlow Condensed', sans-serif;
-  text-decoration: none;
-  float: left;
-  color: #FFF;
 }
 
-li a:hover:not(.active) {
-  padding: 5%;
+menu a {
+  text-decoration: none;
+  color: #FFF;
+  padding: 2%;
+}
+
+.menu a:hover {
   color: #DB1A5B;
 }
 
@@ -83,12 +87,27 @@ p {
   margin: 5%;
 }
 
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover:not(.active) {
+  text-decoration: none;
+  color: #DB1A5B;
+}
+
 button {
   border-radius: 0.3em;
   background-color: #DB1A5B;
-  color: #FFF;
   padding: 1%;
   border-style: none;
+}
+
+button:hover:not(.active) {
+  border-radius: 0.3em;
+  padding: 1%;
+  background-color: #5ADBB5;
 }
 
 footer p {
@@ -97,5 +116,12 @@ footer p {
   padding: 5%;
   text-align: center;
   background-color: #5ADBB5;
+  margin-top: 5%;
   color: #FFF;
 }
+
+/*.card {
+  border: solid 0.2em;
+  border-color: gray;
+  padding: : 05em;
+}*/
